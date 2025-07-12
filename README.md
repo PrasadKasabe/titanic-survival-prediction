@@ -1,4 +1,4 @@
-# 🚢 Titanic Survival Prediction - ML + Flask API
+# 🚢 Titanic Survival Prediction
 
 This project builds a machine learning model to predict the survival of passengers aboard the Titanic. It includes:
 - Exploratory Data Analysis (EDA)
@@ -30,31 +30,7 @@ titanic-survival-ml-api/
 └── README.md                    # Project overview
 ```
 
-## 🌐 Live API Demo (Optional)
-You can test the deployed API using Postman or `curl`.
 
-### Endpoint:
-```
-POST /predict
-```
-
-### Sample Input:
-```json
-{
-  "Pclass": 3,
-  "Sex": "male",
-  "Age": 22,
-  "SibSp": 1,
-  "Parch": 0,
-  "Fare": 7.25,
-  "Embarked": "S"
-}
-```
-
-### Sample Response:
-```json
-{ "prediction": "Not Survived" }
-```
 
 ## 🙌 Author
 **Prasad Janardan Kasabe**  
